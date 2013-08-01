@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -783,6 +783,8 @@
 <text x="1.1" y="0.4" size="0.254" layer="51">X</text>
 <text x="-0.1" y="-0.6" size="0.254" layer="51">Z</text>
 <text x="-1.9834" y="-2.1048" size="0.0366" layer="200" font="vector">C:/Documents and Settings/jbartlett/Desktop/mpu-6050.bmp</text>
+<text x="-0.9" y="2.87" size="0.381" layer="21">&gt;Name</text>
+<text x="-0.8" y="-3.2" size="0.381" layer="21">&gt;Value</text>
 </package>
 <package name="DFN-10">
 <description>10-pin DFN, 2mm x 2mm x 0.85mm</description>
@@ -938,6 +940,7 @@
 <pin name="VDD" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="INT" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <text x="-12.7" y="20.32" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="ITG-3050">
 <description>Symbol for the ITG-3050</description>
@@ -959,7 +962,8 @@
 <pin name="GND" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="VDD" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="INT" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<text x="-12.7" y="20.32" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="MAG3110">
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -5045,211 +5049,211 @@ type RDH, grid 15 mm</description>
 <part name="U$3" library="RaspberryPi" deviceset="RASPBERRY-PI_REV2" device=""/>
 <part name="MPU1" library="Gyros" deviceset="MPU-3300" device=""/>
 <part name="ITG1" library="Gyros" deviceset="ITG-3050" device=""/>
-<part name="U4" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="ACL_1" library="SparkFun" deviceset="MMA8452Q" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C22" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C26" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C19" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C22" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C26" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R17" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R17" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="C16" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C16" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="MPU2" library="Gyros" deviceset="MPU-3300" device=""/>
-<part name="U9" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="ACL_2" library="SparkFun" deviceset="MMA8452Q" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C46" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C49" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C53" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C46" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C49" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C53" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="R30" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R33" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R33" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="C43" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C43" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C33" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C33" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="U5" library="SparkFun" deviceset="MMA8452Q" device=""/>
-<part name="C20" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C23" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C27" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="ACL_3" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="C20" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C23" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C27" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R18" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R18" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
-<part name="C10" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C10" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C17" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C17" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
-<part name="C13" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C7" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="ITG3" library="Gyros" deviceset="ITG-3050" device=""/>
-<part name="U10" library="SparkFun" deviceset="MMA8452Q" device=""/>
-<part name="C47" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C50" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C54" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C13" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C7" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="ITG2" library="Gyros" deviceset="ITG-3050" device=""/>
+<part name="ACL_4" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="C47" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C50" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C54" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="R31" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R34" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R31" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R34" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
-<part name="C37" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C37" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C44" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C44" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
-<part name="C40" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C34" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="ITG2" library="Gyros" deviceset="ITG-3050" device=""/>
-<part name="U6" library="SparkFun" deviceset="MMA8452Q" device=""/>
-<part name="C21" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C24" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C28" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C40" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C34" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="ITG3" library="Gyros" deviceset="ITG-3050" device=""/>
+<part name="ACL_5" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="C21" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C24" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C28" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V23" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
-<part name="R16" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R19" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R16" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R19" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
-<part name="C11" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C18" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C18" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="+3V26" library="supply1" deviceset="+3V3" device=""/>
-<part name="C14" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C8" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
+<part name="C14" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C8" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="ITG4" library="Gyros" deviceset="ITG-3050" device=""/>
-<part name="U11" library="SparkFun" deviceset="MMA8452Q" device=""/>
-<part name="C48" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C51" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7uF"/>
-<part name="C55" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="ACL_6" library="SparkFun" deviceset="MMA8452Q" device=""/>
+<part name="C48" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C51" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="C55" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="+3V27" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V28" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R35" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R35" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="+3V30" library="supply1" deviceset="+3V3" device=""/>
-<part name="C38" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C38" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="C45" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C45" library="SparkFun" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="C41" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C35" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
+<part name="C41" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C35" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="U3" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C9" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10uF"/>
+<part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
-<part name="C12" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="C15" library="SparkFun" deviceset="CAP" device="0402-CAP" value="470nF"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="C12" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C15" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U7" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
-<part name="C25" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C29" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10uF"/>
+<part name="C25" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C29" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
-<part name="C30" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="C31" library="SparkFun" deviceset="CAP" device="0402-CAP" value="470nF"/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="C30" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C31" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U8" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
-<part name="C32" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C36" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10uF"/>
+<part name="C32" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C36" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="R24" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R25" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R25" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
-<part name="C39" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="C42" library="SparkFun" deviceset="CAP" device="0402-CAP" value="470nF"/>
-<part name="R26" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="C39" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C42" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
+<part name="R26" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U12" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
-<part name="C52" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C56" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10uF"/>
+<part name="C52" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C56" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R36" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R37" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R36" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R37" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
-<part name="C57" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
-<part name="C58" library="SparkFun" deviceset="CAP" device="0402-CAP" value="470nF"/>
-<part name="R38" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="C57" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C58" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
+<part name="R38" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U1" library="Gyros" deviceset="MAG3110" device=""/>
 <part name="+3V41" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C3" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="U2" library="Gyros" deviceset="MAG3110" device=""/>
 <part name="+3V40" library="supply1" deviceset="+3V3" device=""/>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C4" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="U$1" library="Gyros" deviceset="PCA9546A" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="+3V42" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="+3V43" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="Gyros" deviceset="PCA9546A" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="+3V44" library="supply1" deviceset="+3V3" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="10K"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="+3V45" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V46" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC1" library="Gyros" deviceset="LM1117T-*" device="-V" technology="3.3"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="R39" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R40" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R39" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R40" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V47" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V48" library="supply1" deviceset="+3V3" device=""/>
-<part name="R23" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R28" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R23" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R28" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V49" library="supply1" deviceset="+3V3" device=""/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V50" library="supply1" deviceset="+3V3" device=""/>
-<part name="R27" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
-<part name="R29" library="resistor" deviceset="R-EU_" device="0207/10" value="2.2K"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
+<part name="R29" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V51" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
@@ -5274,7 +5278,7 @@ type RDH, grid 15 mm</description>
 <instance part="U$3" gate="G$1" x="421.64" y="177.8"/>
 <instance part="MPU1" gate="G$1" x="-58.42" y="317.5"/>
 <instance part="ITG1" gate="G$1" x="-50.8" y="226.06"/>
-<instance part="U4" gate="G$1" x="53.34" y="317.5"/>
+<instance part="ACL_1" gate="G$1" x="53.34" y="317.5"/>
 <instance part="GND1" gate="1" x="-17.78" y="289.56"/>
 <instance part="GND2" gate="1" x="375.92" y="180.34"/>
 <instance part="C19" gate="G$1" x="0" y="309.88"/>
@@ -5292,7 +5296,7 @@ type RDH, grid 15 mm</description>
 <instance part="GND4" gate="1" x="-93.98" y="289.56"/>
 <instance part="C6" gate="G$1" x="-93.98" y="299.72"/>
 <instance part="MPU2" gate="G$1" x="170.18" y="317.5"/>
-<instance part="U9" gate="G$1" x="281.94" y="317.5"/>
+<instance part="ACL_2" gate="G$1" x="281.94" y="317.5"/>
 <instance part="GND5" gate="1" x="210.82" y="289.56"/>
 <instance part="C46" gate="G$1" x="228.6" y="309.88"/>
 <instance part="C49" gate="G$1" x="238.76" y="309.88"/>
@@ -5310,7 +5314,7 @@ type RDH, grid 15 mm</description>
 <instance part="C33" gate="G$1" x="134.62" y="299.72"/>
 <instance part="GND8" gate="1" x="137.16" y="335.28"/>
 <instance part="GND9" gate="1" x="-91.44" y="335.28"/>
-<instance part="U5" gate="G$1" x="53.34" y="220.98"/>
+<instance part="ACL_3" gate="G$1" x="53.34" y="220.98"/>
 <instance part="C20" gate="G$1" x="0" y="213.36"/>
 <instance part="C23" gate="G$1" x="10.16" y="213.36"/>
 <instance part="C27" gate="G$1" x="20.32" y="213.36"/>
@@ -5329,8 +5333,8 @@ type RDH, grid 15 mm</description>
 <instance part="+3V16" gate="G$1" x="-22.86" y="215.9" rot="R270"/>
 <instance part="C13" gate="G$1" x="-27.94" y="208.28"/>
 <instance part="C7" gate="G$1" x="-88.9" y="208.28"/>
-<instance part="ITG3" gate="G$1" x="177.8" y="226.06"/>
-<instance part="U10" gate="G$1" x="281.94" y="220.98"/>
+<instance part="ITG2" gate="G$1" x="177.8" y="226.06"/>
+<instance part="ACL_4" gate="G$1" x="281.94" y="220.98"/>
 <instance part="C47" gate="G$1" x="228.6" y="213.36"/>
 <instance part="C50" gate="G$1" x="238.76" y="213.36"/>
 <instance part="C54" gate="G$1" x="248.92" y="213.36"/>
@@ -5349,8 +5353,8 @@ type RDH, grid 15 mm</description>
 <instance part="+3V21" gate="G$1" x="205.74" y="215.9" rot="R270"/>
 <instance part="C40" gate="G$1" x="200.66" y="208.28"/>
 <instance part="C34" gate="G$1" x="139.7" y="208.28"/>
-<instance part="ITG2" gate="G$1" x="-50.8" y="129.54"/>
-<instance part="U6" gate="G$1" x="53.34" y="124.46"/>
+<instance part="ITG3" gate="G$1" x="-50.8" y="129.54"/>
+<instance part="ACL_5" gate="G$1" x="53.34" y="124.46"/>
 <instance part="C21" gate="G$1" x="0" y="116.84"/>
 <instance part="C24" gate="G$1" x="10.16" y="116.84"/>
 <instance part="C28" gate="G$1" x="20.32" y="116.84"/>
@@ -5370,7 +5374,7 @@ type RDH, grid 15 mm</description>
 <instance part="C14" gate="G$1" x="-27.94" y="111.76"/>
 <instance part="C8" gate="G$1" x="-88.9" y="111.76"/>
 <instance part="ITG4" gate="G$1" x="177.8" y="129.54"/>
-<instance part="U11" gate="G$1" x="281.94" y="124.46"/>
+<instance part="ACL_6" gate="G$1" x="281.94" y="124.46"/>
 <instance part="C48" gate="G$1" x="228.6" y="116.84"/>
 <instance part="C51" gate="G$1" x="238.76" y="116.84"/>
 <instance part="C55" gate="G$1" x="248.92" y="116.84"/>
@@ -5491,14 +5495,14 @@ type RDH, grid 15 mm</description>
 <wire x1="375.92" y1="182.88" x2="393.7" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_1" gate="G$1" pin="GND@2"/>
 <wire x1="43.18" y1="314.96" x2="27.94" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="307.34" x2="27.94" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_1" gate="G$1" pin="GND@1"/>
 <wire x1="27.94" y1="304.8" x2="27.94" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="302.26" x2="27.94" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="312.42" x2="27.94" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_1" gate="G$1" pin="GND@0"/>
 <wire x1="43.18" y1="309.88" x2="27.94" y2="302.26" width="0.1524" layer="91"/>
 <junction x="27.94" y="304.8"/>
 <junction x="27.94" y="302.26"/>
@@ -5515,7 +5519,7 @@ type RDH, grid 15 mm</description>
 <junction x="15.24" y="299.72"/>
 <wire x1="27.94" y1="299.72" x2="27.94" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U4" gate="G$1" pin="SA0"/>
+<pinref part="ACL_1" gate="G$1" pin="SA0"/>
 <wire x1="66.04" y1="309.88" x2="71.12" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="309.88" x2="71.12" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="299.72" x2="27.94" y2="299.72" width="0.1524" layer="91"/>
@@ -5541,14 +5545,14 @@ type RDH, grid 15 mm</description>
 <junction x="-93.98" y="297.18"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_2" gate="G$1" pin="GND@2"/>
 <wire x1="271.78" y1="314.96" x2="256.54" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="307.34" x2="256.54" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_2" gate="G$1" pin="GND@1"/>
 <wire x1="256.54" y1="304.8" x2="256.54" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="302.26" x2="256.54" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="312.42" x2="256.54" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_2" gate="G$1" pin="GND@0"/>
 <wire x1="271.78" y1="309.88" x2="256.54" y2="302.26" width="0.1524" layer="91"/>
 <junction x="256.54" y="304.8"/>
 <junction x="256.54" y="302.26"/>
@@ -5565,7 +5569,7 @@ type RDH, grid 15 mm</description>
 <junction x="243.84" y="299.72"/>
 <wire x1="256.54" y1="299.72" x2="256.54" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U9" gate="G$1" pin="SA0"/>
+<pinref part="ACL_2" gate="G$1" pin="SA0"/>
 <wire x1="294.64" y1="309.88" x2="299.72" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="309.88" x2="299.72" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="299.72" x2="256.54" y2="299.72" width="0.1524" layer="91"/>
@@ -5607,14 +5611,14 @@ type RDH, grid 15 mm</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_3" gate="G$1" pin="GND@2"/>
 <wire x1="43.18" y1="218.44" x2="27.94" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="210.82" x2="27.94" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_3" gate="G$1" pin="GND@1"/>
 <wire x1="27.94" y1="208.28" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="205.74" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="215.9" x2="27.94" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_3" gate="G$1" pin="GND@0"/>
 <wire x1="43.18" y1="213.36" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
 <junction x="27.94" y="208.28"/>
 <junction x="27.94" y="205.74"/>
@@ -5631,7 +5635,7 @@ type RDH, grid 15 mm</description>
 <junction x="15.24" y="203.2"/>
 <wire x1="27.94" y1="203.2" x2="27.94" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="U5" gate="G$1" pin="SA0"/>
+<pinref part="ACL_3" gate="G$1" pin="SA0"/>
 <wire x1="66.04" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="213.36" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
@@ -5665,14 +5669,14 @@ type RDH, grid 15 mm</description>
 <junction x="-73.66" y="200.66"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_4" gate="G$1" pin="GND@2"/>
 <wire x1="271.78" y1="218.44" x2="256.54" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="210.82" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_4" gate="G$1" pin="GND@1"/>
 <wire x1="256.54" y1="208.28" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="205.74" x2="256.54" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="215.9" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_4" gate="G$1" pin="GND@0"/>
 <wire x1="271.78" y1="213.36" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
 <junction x="256.54" y="208.28"/>
 <junction x="256.54" y="205.74"/>
@@ -5689,14 +5693,14 @@ type RDH, grid 15 mm</description>
 <junction x="243.84" y="203.2"/>
 <wire x1="256.54" y1="203.2" x2="256.54" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="U10" gate="G$1" pin="SA0"/>
+<pinref part="ACL_4" gate="G$1" pin="SA0"/>
 <wire x1="294.64" y1="213.36" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="213.36" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="203.2" x2="256.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="256.54" y="203.2"/>
 </segment>
 <segment>
-<pinref part="ITG3" gate="G$1" pin="CLKIN"/>
+<pinref part="ITG2" gate="G$1" pin="CLKIN"/>
 <wire x1="160.02" y1="241.3" x2="152.4" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="241.3" x2="152.4" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="251.46" x2="144.78" y2="251.46" width="0.1524" layer="91"/>
@@ -5705,7 +5709,7 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="ITG3" gate="G$1" pin="FSYNC"/>
+<pinref part="ITG2" gate="G$1" pin="FSYNC"/>
 <wire x1="139.7" y1="200.66" x2="139.7" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="210.82" x2="160.02" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
@@ -5717,20 +5721,20 @@ type RDH, grid 15 mm</description>
 <wire x1="139.7" y1="205.74" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
 <junction x="149.86" y="200.66"/>
 <junction x="139.7" y="200.66"/>
-<pinref part="ITG3" gate="G$1" pin="AD0"/>
+<pinref part="ITG2" gate="G$1" pin="AD0"/>
 <wire x1="160.02" y1="220.98" x2="154.94" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="220.98" x2="154.94" y2="200.66" width="0.1524" layer="91"/>
 <junction x="154.94" y="200.66"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_5" gate="G$1" pin="GND@2"/>
 <wire x1="43.18" y1="121.92" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="114.3" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_5" gate="G$1" pin="GND@1"/>
 <wire x1="27.94" y1="111.76" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="109.22" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="119.38" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_5" gate="G$1" pin="GND@0"/>
 <wire x1="43.18" y1="116.84" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <junction x="27.94" y="111.76"/>
 <junction x="27.94" y="109.22"/>
@@ -5747,14 +5751,14 @@ type RDH, grid 15 mm</description>
 <junction x="15.24" y="106.68"/>
 <wire x1="27.94" y1="106.68" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="U6" gate="G$1" pin="SA0"/>
+<pinref part="ACL_5" gate="G$1" pin="SA0"/>
 <wire x1="66.04" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="116.84" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="27.94" y="106.68"/>
 </segment>
 <segment>
-<pinref part="ITG2" gate="G$1" pin="CLKIN"/>
+<pinref part="ITG3" gate="G$1" pin="CLKIN"/>
 <wire x1="-68.58" y1="144.78" x2="-76.2" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="144.78" x2="-76.2" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="154.94" x2="-83.82" y2="154.94" width="0.1524" layer="91"/>
@@ -5763,7 +5767,7 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="ITG2" gate="G$1" pin="FSYNC"/>
+<pinref part="ITG3" gate="G$1" pin="FSYNC"/>
 <wire x1="-88.9" y1="104.14" x2="-88.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="114.3" x2="-68.58" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="104.14" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
@@ -5776,14 +5780,14 @@ type RDH, grid 15 mm</description>
 <junction x="-88.9" y="104.14"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="GND@2"/>
+<pinref part="ACL_6" gate="G$1" pin="GND@2"/>
 <wire x1="271.78" y1="121.92" x2="256.54" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="114.3" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="GND@1"/>
+<pinref part="ACL_6" gate="G$1" pin="GND@1"/>
 <wire x1="256.54" y1="111.76" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="109.22" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="119.38" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="GND@0"/>
+<pinref part="ACL_6" gate="G$1" pin="GND@0"/>
 <wire x1="271.78" y1="116.84" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
 <junction x="256.54" y="111.76"/>
 <junction x="256.54" y="109.22"/>
@@ -5800,7 +5804,7 @@ type RDH, grid 15 mm</description>
 <junction x="243.84" y="106.68"/>
 <wire x1="256.54" y1="106.68" x2="256.54" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="U11" gate="G$1" pin="SA0"/>
+<pinref part="ACL_6" gate="G$1" pin="SA0"/>
 <wire x1="294.64" y1="116.84" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="116.84" x2="299.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
@@ -6106,7 +6110,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="213.36" x2="215.9" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="ITG3" gate="G$1" pin="GND"/>
+<pinref part="ITG2" gate="G$1" pin="GND"/>
 <wire x1="215.9" y1="208.28" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="203.2" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="220.98" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
@@ -6136,7 +6140,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="116.84" x2="-12.7" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="ITG2" gate="G$1" pin="GND"/>
+<pinref part="ITG3" gate="G$1" pin="GND"/>
 <wire x1="-12.7" y1="111.76" x2="-12.7" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="106.68" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
@@ -6213,7 +6217,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="314.96" x2="22.86" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="BYP"/>
+<pinref part="ACL_1" gate="G$1" pin="BYP"/>
 <wire x1="22.86" y1="320.04" x2="43.18" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6222,7 +6226,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="314.96" x2="15.24" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="322.58" x2="27.94" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_1" gate="G$1" pin="VDDIO"/>
 <wire x1="43.18" y1="322.58" x2="27.94" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="322.58" x2="27.94" y2="325.12" width="0.1524" layer="91"/>
 <junction x="27.94" y="322.58"/>
@@ -6230,7 +6234,7 @@ type RDH, grid 15 mm</description>
 <wire x1="0" y1="314.96" x2="7.62" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="322.58" x2="7.62" y2="322.58" width="0.1524" layer="91"/>
 <junction x="15.24" y="322.58"/>
-<pinref part="U4" gate="G$1" pin="VDD"/>
+<pinref part="ACL_1" gate="G$1" pin="VDD"/>
 <wire x1="43.18" y1="325.12" x2="27.94" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="325.12" x2="27.94" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
@@ -6265,7 +6269,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="314.96" x2="243.84" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="322.58" x2="256.54" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_2" gate="G$1" pin="VDDIO"/>
 <wire x1="271.78" y1="322.58" x2="256.54" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="322.58" x2="256.54" y2="325.12" width="0.1524" layer="91"/>
 <junction x="256.54" y="322.58"/>
@@ -6273,7 +6277,7 @@ type RDH, grid 15 mm</description>
 <wire x1="228.6" y1="314.96" x2="236.22" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="322.58" x2="236.22" y2="322.58" width="0.1524" layer="91"/>
 <junction x="243.84" y="322.58"/>
-<pinref part="U9" gate="G$1" pin="VDD"/>
+<pinref part="ACL_2" gate="G$1" pin="VDD"/>
 <wire x1="271.78" y1="325.12" x2="256.54" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="325.12" x2="256.54" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
@@ -6307,7 +6311,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="218.44" x2="15.24" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="226.06" x2="27.94" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_3" gate="G$1" pin="VDDIO"/>
 <wire x1="43.18" y1="226.06" x2="27.94" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="226.06" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="226.06"/>
@@ -6315,7 +6319,7 @@ type RDH, grid 15 mm</description>
 <wire x1="0" y1="218.44" x2="7.62" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="226.06" x2="7.62" y2="226.06" width="0.1524" layer="91"/>
 <junction x="15.24" y="226.06"/>
-<pinref part="U5" gate="G$1" pin="VDD"/>
+<pinref part="ACL_3" gate="G$1" pin="VDD"/>
 <wire x1="43.18" y1="228.6" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="228.6" x2="27.94" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
@@ -6352,7 +6356,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="218.44" x2="243.84" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="226.06" x2="256.54" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_4" gate="G$1" pin="VDDIO"/>
 <wire x1="271.78" y1="226.06" x2="256.54" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="226.06" x2="256.54" y2="228.6" width="0.1524" layer="91"/>
 <junction x="256.54" y="226.06"/>
@@ -6360,7 +6364,7 @@ type RDH, grid 15 mm</description>
 <wire x1="228.6" y1="218.44" x2="236.22" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="226.06" x2="236.22" y2="226.06" width="0.1524" layer="91"/>
 <junction x="243.84" y="226.06"/>
-<pinref part="U10" gate="G$1" pin="VDD"/>
+<pinref part="ACL_4" gate="G$1" pin="VDD"/>
 <wire x1="271.78" y1="228.6" x2="256.54" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="228.6" x2="256.54" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
@@ -6381,11 +6385,11 @@ type RDH, grid 15 mm</description>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
 <wire x1="200.66" y1="215.9" x2="203.2" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="215.9" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="ITG3" gate="G$1" pin="VDD"/>
+<pinref part="ITG2" gate="G$1" pin="VDD"/>
 <wire x1="195.58" y1="215.9" x2="200.66" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ITG3" gate="G$1" pin="VLOGIC"/>
+<pinref part="ITG2" gate="G$1" pin="VLOGIC"/>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 <wire x1="160.02" y1="226.06" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
@@ -6397,7 +6401,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="121.92" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_5" gate="G$1" pin="VDDIO"/>
 <wire x1="43.18" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="129.54" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
 <junction x="27.94" y="129.54"/>
@@ -6405,7 +6409,7 @@ type RDH, grid 15 mm</description>
 <wire x1="0" y1="121.92" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 <junction x="15.24" y="129.54"/>
-<pinref part="U6" gate="G$1" pin="VDD"/>
+<pinref part="ACL_5" gate="G$1" pin="VDD"/>
 <wire x1="43.18" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="132.08" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
@@ -6426,11 +6430,11 @@ type RDH, grid 15 mm</description>
 <pinref part="+3V26" gate="G$1" pin="+3V3"/>
 <wire x1="-27.94" y1="119.38" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="119.38" x2="-27.94" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="ITG2" gate="G$1" pin="VDD"/>
+<pinref part="ITG3" gate="G$1" pin="VDD"/>
 <wire x1="-33.02" y1="119.38" x2="-27.94" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ITG2" gate="G$1" pin="VLOGIC"/>
+<pinref part="ITG3" gate="G$1" pin="VLOGIC"/>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
 <wire x1="-68.58" y1="129.54" x2="-78.74" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -6438,7 +6442,7 @@ type RDH, grid 15 mm</description>
 <wire x1="-88.9" y1="129.54" x2="-96.52" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="116.84" x2="-88.9" y2="129.54" width="0.1524" layer="91"/>
 <junction x="-88.9" y="129.54"/>
-<pinref part="ITG2" gate="G$1" pin="AD0"/>
+<pinref part="ITG3" gate="G$1" pin="AD0"/>
 <wire x1="-68.58" y1="124.46" x2="-78.74" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="124.46" x2="-78.74" y2="129.54" width="0.1524" layer="91"/>
 <junction x="-78.74" y="129.54"/>
@@ -6447,7 +6451,7 @@ type RDH, grid 15 mm</description>
 <pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="121.92" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="129.54" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="VDDIO"/>
+<pinref part="ACL_6" gate="G$1" pin="VDDIO"/>
 <wire x1="271.78" y1="129.54" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="129.54" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
 <junction x="256.54" y="129.54"/>
@@ -6455,7 +6459,7 @@ type RDH, grid 15 mm</description>
 <wire x1="228.6" y1="121.92" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
 <junction x="243.84" y="129.54"/>
-<pinref part="U11" gate="G$1" pin="VDD"/>
+<pinref part="ACL_6" gate="G$1" pin="VDD"/>
 <wire x1="271.78" y1="132.08" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="132.08" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
@@ -6760,7 +6764,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="M1_AUXSDA" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="SDA"/>
+<pinref part="ACL_1" gate="G$1" pin="SDA"/>
 <wire x1="66.04" y1="322.58" x2="78.74" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="322.58" x2="88.9" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="322.58" x2="88.9" y2="320.04" width="0.1524" layer="91"/>
@@ -6783,7 +6787,7 @@ type RDH, grid 15 mm</description>
 <label x="-93.98" y="322.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="SCL"/>
+<pinref part="ACL_1" gate="G$1" pin="SCL"/>
 <wire x1="66.04" y1="325.12" x2="71.12" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="325.12" x2="104.14" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="325.12" x2="71.12" y2="330.2" width="0.1524" layer="91"/>
@@ -6834,7 +6838,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="314.96" x2="251.46" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="BYP"/>
+<pinref part="ACL_2" gate="G$1" pin="BYP"/>
 <wire x1="251.46" y1="320.04" x2="271.78" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6866,7 +6870,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="M2_AUXCLK" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="SCL"/>
+<pinref part="ACL_2" gate="G$1" pin="SCL"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="325.12" x2="299.72" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="325.12" x2="299.72" y2="330.2" width="0.1524" layer="91"/>
@@ -6882,7 +6886,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="M2_AUXSDA" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="SDA"/>
+<pinref part="ACL_2" gate="G$1" pin="SDA"/>
 <wire x1="294.64" y1="322.58" x2="307.34" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="322.58" x2="317.5" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="322.58" x2="317.5" y2="320.04" width="0.1524" layer="91"/>
@@ -6909,7 +6913,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="218.44" x2="22.86" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="BYP"/>
+<pinref part="ACL_3" gate="G$1" pin="BYP"/>
 <wire x1="22.86" y1="223.52" x2="43.18" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6964,7 +6968,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="218.44" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="BYP"/>
+<pinref part="ACL_4" gate="G$1" pin="BYP"/>
 <wire x1="251.46" y1="223.52" x2="271.78" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6991,7 +6995,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="ITG3" gate="G$1" pin="REGOUT"/>
+<pinref part="ITG2" gate="G$1" pin="REGOUT"/>
 <wire x1="160.02" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="215.9" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C37" gate="G$1" pin="1"/>
@@ -6999,7 +7003,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="ITG3" gate="G$1" pin="CPOUT"/>
+<pinref part="ITG2" gate="G$1" pin="CPOUT"/>
 <wire x1="195.58" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="226.06" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="1"/>
@@ -7007,7 +7011,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="I2_INT" class="0">
 <segment>
-<pinref part="ITG3" gate="G$1" pin="INT"/>
+<pinref part="ITG2" gate="G$1" pin="INT"/>
 <wire x1="195.58" y1="210.82" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="203.2" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
 <label x="187.96" y="205.74" size="1.778" layer="95" rot="R180"/>
@@ -7017,7 +7021,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="121.92" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="BYP"/>
+<pinref part="ACL_5" gate="G$1" pin="BYP"/>
 <wire x1="22.86" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7044,7 +7048,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="ITG2" gate="G$1" pin="REGOUT"/>
+<pinref part="ITG3" gate="G$1" pin="REGOUT"/>
 <wire x1="-68.58" y1="119.38" x2="-78.74" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="119.38" x2="-78.74" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -7052,7 +7056,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="ITG2" gate="G$1" pin="CPOUT"/>
+<pinref part="ITG3" gate="G$1" pin="CPOUT"/>
 <wire x1="-33.02" y1="129.54" x2="-12.7" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="129.54" x2="-12.7" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -7060,7 +7064,7 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="I3_INT" class="0">
 <segment>
-<pinref part="ITG2" gate="G$1" pin="INT"/>
+<pinref part="ITG3" gate="G$1" pin="INT"/>
 <wire x1="-33.02" y1="114.3" x2="-33.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="106.68" x2="-48.26" y2="106.68" width="0.1524" layer="91"/>
 <label x="-40.64" y="109.22" size="1.778" layer="95" rot="R180"/>
@@ -7070,7 +7074,7 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="121.92" x2="251.46" y2="127" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="BYP"/>
+<pinref part="ACL_6" gate="G$1" pin="BYP"/>
 <wire x1="251.46" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7126,7 +7130,7 @@ type RDH, grid 15 mm</description>
 <label x="-83.82" y="238.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="SDA"/>
+<pinref part="ACL_3" gate="G$1" pin="SDA"/>
 <wire x1="66.04" y1="226.06" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="226.06" x2="88.9" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="223.52" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
@@ -7140,19 +7144,19 @@ type RDH, grid 15 mm</description>
 <label x="-83.82" y="233.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="SCL"/>
+<pinref part="ACL_3" gate="G$1" pin="SCL"/>
 <wire x1="66.04" y1="228.6" x2="104.14" y2="228.6" width="0.1524" layer="91"/>
 <label x="104.14" y="231.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="I3_AUXSDA" class="0">
 <segment>
-<pinref part="ITG2" gate="G$1" pin="AUX_DA"/>
+<pinref part="ITG3" gate="G$1" pin="AUX_DA"/>
 <wire x1="-68.58" y1="139.7" x2="-96.52" y2="139.7" width="0.1524" layer="91"/>
 <label x="-83.82" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SDA"/>
+<pinref part="ACL_5" gate="G$1" pin="SDA"/>
 <wire x1="66.04" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="129.54" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
@@ -7161,24 +7165,24 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="I3_AUXCLK" class="0">
 <segment>
-<pinref part="ITG2" gate="G$1" pin="AUX_CL"/>
+<pinref part="ITG3" gate="G$1" pin="AUX_CL"/>
 <wire x1="-68.58" y1="134.62" x2="-96.52" y2="134.62" width="0.1524" layer="91"/>
 <label x="-83.82" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SCL"/>
+<pinref part="ACL_5" gate="G$1" pin="SCL"/>
 <wire x1="66.04" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="104.14" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="I2_AUXSDA" class="0">
 <segment>
-<pinref part="ITG3" gate="G$1" pin="AUX_DA"/>
+<pinref part="ITG2" gate="G$1" pin="AUX_DA"/>
 <wire x1="160.02" y1="236.22" x2="132.08" y2="236.22" width="0.1524" layer="91"/>
 <label x="144.78" y="238.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="SDA"/>
+<pinref part="ACL_4" gate="G$1" pin="SDA"/>
 <wire x1="294.64" y1="226.06" x2="320.04" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="226.06" x2="320.04" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="223.52" x2="335.28" y2="223.52" width="0.1524" layer="91"/>
@@ -7187,12 +7191,12 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="I2_AUXCLK" class="0">
 <segment>
-<pinref part="ITG3" gate="G$1" pin="AUX_CL"/>
+<pinref part="ITG2" gate="G$1" pin="AUX_CL"/>
 <wire x1="160.02" y1="231.14" x2="132.08" y2="231.14" width="0.1524" layer="91"/>
 <label x="144.78" y="233.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="SCL"/>
+<pinref part="ACL_4" gate="G$1" pin="SCL"/>
 <wire x1="294.64" y1="228.6" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
 <label x="335.28" y="231.14" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -7204,7 +7208,7 @@ type RDH, grid 15 mm</description>
 <label x="144.78" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="SDA"/>
+<pinref part="ACL_6" gate="G$1" pin="SDA"/>
 <wire x1="294.64" y1="129.54" x2="317.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="129.54" x2="317.5" y2="127" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="127" x2="332.74" y2="127" width="0.1524" layer="91"/>
@@ -7218,7 +7222,7 @@ type RDH, grid 15 mm</description>
 <label x="144.78" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="SCL"/>
+<pinref part="ACL_6" gate="G$1" pin="SCL"/>
 <wire x1="294.64" y1="132.08" x2="332.74" y2="132.08" width="0.1524" layer="91"/>
 <label x="332.74" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -7455,7 +7459,7 @@ type RDH, grid 15 mm</description>
 <label x="-187.96" y="317.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ITG2" gate="G$1" pin="SDA"/>
+<pinref part="ITG3" gate="G$1" pin="SDA"/>
 <wire x1="-33.02" y1="144.78" x2="-30.48" y2="144.78" width="0.1524" layer="91"/>
 <label x="-12.7" y="147.32" size="1.778" layer="95" rot="R180"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -7482,7 +7486,7 @@ type RDH, grid 15 mm</description>
 <label x="-187.96" y="312.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ITG2" gate="G$1" pin="SCL"/>
+<pinref part="ITG3" gate="G$1" pin="SCL"/>
 <wire x1="-33.02" y1="139.7" x2="-25.4" y2="139.7" width="0.1524" layer="91"/>
 <label x="-12.7" y="142.24" size="1.778" layer="95" rot="R180"/>
 <wire x1="-25.4" y1="139.7" x2="-12.7" y2="139.7" width="0.1524" layer="91"/>
@@ -7576,7 +7580,7 @@ type RDH, grid 15 mm</description>
 <wire x1="190.5" y1="350.52" x2="193.04" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ITG3" gate="G$1" pin="SDA"/>
+<pinref part="ITG2" gate="G$1" pin="SDA"/>
 <wire x1="195.58" y1="241.3" x2="215.9" y2="241.3" width="0.1524" layer="91"/>
 <label x="215.9" y="243.84" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -7599,7 +7603,7 @@ type RDH, grid 15 mm</description>
 <wire x1="198.12" y1="345.44" x2="210.82" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ITG3" gate="G$1" pin="SCL"/>
+<pinref part="ITG2" gate="G$1" pin="SCL"/>
 <wire x1="195.58" y1="236.22" x2="215.9" y2="236.22" width="0.1524" layer="91"/>
 <label x="215.9" y="238.76" size="1.778" layer="95" rot="R180"/>
 </segment>
