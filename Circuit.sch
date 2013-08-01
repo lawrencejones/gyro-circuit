@@ -5949,7 +5949,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V51" library="supply1" deviceset="+3V3" device=""/>
 <part name="_B1_D0" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="_B1_C0" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="_B1_SD1" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="_B1_D1" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="_B1_C1" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="_B1_C2" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="_B1_D2" library="testpad" deviceset="TP" device="B1,27"/>
@@ -6190,7 +6190,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="+3V51" gate="G$1" x="246.38" y="160.02" rot="R270"/>
 <instance part="_B1_D0" gate="G$1" x="-198.12" y="325.12" rot="R90"/>
 <instance part="_B1_C0" gate="G$1" x="-198.12" y="320.04" rot="R90"/>
-<instance part="_B1_SD1" gate="G$1" x="-198.12" y="314.96" rot="R90"/>
+<instance part="_B1_D1" gate="G$1" x="-198.12" y="314.96" rot="R90"/>
 <instance part="_B1_C1" gate="G$1" x="-198.12" y="309.88" rot="R90"/>
 <instance part="_B1_C2" gate="G$1" x="-132.08" y="309.88" rot="R270"/>
 <instance part="_B1_D2" gate="G$1" x="-132.08" y="304.8" rot="R270"/>
@@ -8175,7 +8175,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="SD1"/>
 <wire x1="-182.88" y1="314.96" x2="-195.58" y2="314.96" width="0.1524" layer="91"/>
 <label x="-187.96" y="317.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="_B1_SD1" gate="G$1" pin="TP"/>
+<pinref part="_B1_D1" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="ITG3" gate="G$1" pin="SDA"/>
