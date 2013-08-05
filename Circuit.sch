@@ -6362,6 +6362,7 @@ type RDH, grid 15 mm</description>
 <wire x1="200.66" y1="215.9" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="ITG2" gate="G$1" pin="VDD"/>
 <wire x1="195.58" y1="215.9" x2="200.66" y2="215.9" width="0.1524" layer="91"/>
+<junction x="200.66" y="215.9"/>
 </segment>
 <segment>
 <pinref part="ITG2" gate="G$1" pin="VLOGIC"/>
@@ -6877,18 +6878,6 @@ type RDH, grid 15 mm</description>
 <wire x1="-121.92" y1="261.62" x2="-121.92" y2="185.42" width="0.3048" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="233.68" x2="71.12" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="233.68" x2="78.74" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="ITG1" gate="G$1" pin="REGOUT"/>
@@ -6928,18 +6917,6 @@ type RDH, grid 15 mm</description>
 <wire x1="337.82" y1="185.42" x2="127" y2="185.42" width="0.3048" layer="91"/>
 <wire x1="127" y1="261.62" x2="127" y2="185.42" width="0.3048" layer="91"/>
 <label x="127" y="264.16" size="3.81" layer="95"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="233.68" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="233.68" x2="307.34" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -7080,10 +7057,14 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="ACL_3" gate="G$1" pin="SDA"/>
-<wire x1="66.04" y1="226.06" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="226.06" x2="78.74" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="226.06" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="226.06" x2="88.9" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="223.52" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
 <label x="104.14" y="226.06" size="1.778" layer="95" rot="R180"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="233.68" x2="78.74" y2="226.06" width="0.1524" layer="91"/>
+<junction x="78.74" y="226.06"/>
 </segment>
 </net>
 <net name="I1_AUXCLK" class="0">
@@ -7094,8 +7075,12 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="ACL_3" gate="G$1" pin="SCL"/>
-<wire x1="66.04" y1="228.6" x2="104.14" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="228.6" x2="71.12" y2="228.6" width="0.1524" layer="91"/>
 <label x="104.14" y="231.14" size="1.778" layer="95" rot="R180"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="228.6" x2="104.14" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="233.68" x2="71.12" y2="228.6" width="0.1524" layer="91"/>
+<junction x="71.12" y="228.6"/>
 </segment>
 </net>
 <net name="I3_AUXSDA" class="0">
@@ -7132,10 +7117,14 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="ACL_4" gate="G$1" pin="SDA"/>
-<wire x1="294.64" y1="226.06" x2="320.04" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="226.06" x2="307.34" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="226.06" x2="320.04" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="226.06" x2="320.04" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="223.52" x2="335.28" y2="223.52" width="0.1524" layer="91"/>
 <label x="335.28" y="226.06" size="1.778" layer="95" rot="R180"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="233.68" x2="307.34" y2="226.06" width="0.1524" layer="91"/>
+<junction x="307.34" y="226.06"/>
 </segment>
 </net>
 <net name="I2_AUXCLK" class="0">
@@ -7146,8 +7135,12 @@ type RDH, grid 15 mm</description>
 </segment>
 <segment>
 <pinref part="ACL_4" gate="G$1" pin="SCL"/>
-<wire x1="294.64" y1="228.6" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="228.6" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
 <label x="335.28" y="231.14" size="1.778" layer="95" rot="R180"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="228.6" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="233.68" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
+<junction x="299.72" y="228.6"/>
 </segment>
 </net>
 <net name="I4_AUXSDA" class="0">
