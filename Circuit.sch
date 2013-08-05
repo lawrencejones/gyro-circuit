@@ -5284,8 +5284,8 @@ The GPIO Connector (P5):&lt;br&gt;
 <part name="R29" library="resistor" deviceset="R-EU_" device="R0603" value="2.2K"/>
 <part name="+3V51" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$1" library="Gyros" deviceset="RASPI-P1" device="RASPI_REV2_P1"/>
-<part name="U$2" library="RaspberryPi" deviceset="RASPI_P5" device=""/>
+<part name="P1" library="Gyros" deviceset="RASPI-P1" device="RASPI_REV2_P1"/>
+<part name="P5" library="RaspberryPi" deviceset="RASPI_P5" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5507,8 +5507,8 @@ The GPIO Connector (P5):&lt;br&gt;
 <instance part="R29" gate="G$1" x="220.98" y="152.4" rot="R180"/>
 <instance part="+3V51" gate="G$1" x="246.38" y="160.02" rot="R270"/>
 <instance part="+3V31" gate="G$1" x="208.28" y="119.38" rot="R270"/>
-<instance part="U$1" gate="G$1" x="421.64" y="180.34"/>
-<instance part="U$2" gate="G$1" x="421.64" y="152.4"/>
+<instance part="P1" gate="G$1" x="421.64" y="180.34"/>
+<instance part="P5" gate="G$1" x="421.64" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -6177,16 +6177,16 @@ The GPIO Connector (P5):&lt;br&gt;
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="464.82" y1="185.42" x2="464.82" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="464.82" y1="177.8" x2="449.58" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GPIO23"/>
+<wire x1="464.82" y1="185.42" x2="464.82" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="GND@14"/>
+<wire x1="464.82" y1="180.34" x2="449.58" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK1" class="0">
 <segment>
 <wire x1="393.7" y1="187.96" x2="370.84" y2="187.96" width="0.1524" layer="91"/>
 <label x="370.84" y="187.96" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="GPIO4,GPCLK0"/>
+<pinref part="P1" gate="G$1" pin="GPIO4,GPCLK0"/>
 </segment>
 <segment>
 <pinref part="MUX1" gate="G$1" pin="SCL"/>
@@ -6200,7 +6200,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="386.08" y1="190.5" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="195.58" x2="370.84" y2="195.58" width="0.1524" layer="91"/>
 <label x="370.84" y="195.58" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="GPIO3,I2C0_SCL"/>
+<pinref part="P1" gate="G$1" pin="GPIO3,I2C0_SCL"/>
 </segment>
 <segment>
 <pinref part="MUX1" gate="G$1" pin="SDA"/>
@@ -6216,7 +6216,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="386.08" y1="149.86" x2="368.3" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="149.86" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
 <junction x="386.08" y="149.86"/>
-<pinref part="U$2" gate="G$1" pin="GPIO30"/>
+<pinref part="P5" gate="G$1" pin="GPIO30"/>
 </segment>
 <segment>
 <pinref part="MUX2" gate="G$1" pin="SDA"/>
@@ -6916,7 +6916,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="462.28" y1="149.86" x2="472.44" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="462.28" y1="149.86" x2="462.28" y2="152.4" width="0.1524" layer="91"/>
 <junction x="462.28" y="149.86"/>
-<pinref part="U$2" gate="G$1" pin="GPIO31"/>
+<pinref part="P5" gate="G$1" pin="GPIO31"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7716,9 +7716,11 @@ The GPIO Connector (P5):&lt;br&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
+<pinref part="P1" gate="G$1" pin="5V@2"/>
+<wire x1="449.58" y1="195.58" x2="454.66" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="195.58" x2="454.66" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="449.58" y1="193.04" x2="457.2" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="5V@4"/>
+<wire x1="454.66" y1="193.04" x2="457.2" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
