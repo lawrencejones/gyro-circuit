@@ -108,99 +108,6 @@
 <wire x1="0" y1="71.95" x2="0" y2="-0.11" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="RaspberryPi">
-<packages>
-<package name="RASPBERRY-PI_REV2">
-<wire x1="-32.675" y1="2.195" x2="-30.825" y2="2.195" width="0.127" layer="21"/>
-<wire x1="-30.825" y1="2.195" x2="-30.825" y2="0.345" width="0.127" layer="21" curve="1.965897"/>
-<wire x1="-30.825" y1="0.345" x2="-32.675" y2="0.345" width="0.127" layer="21"/>
-<wire x1="-32.675" y1="0.345" x2="-32.675" y2="2.195" width="0.127" layer="21"/>
-<wire x1="-33.15" y1="0.045" x2="0.05" y2="0.045" width="0.127" layer="21"/>
-<wire x1="0.05" y1="0.045" x2="0.05" y2="5.045" width="0.127" layer="21"/>
-<wire x1="0.05" y1="5.045" x2="-33.15" y2="5.045" width="0.127" layer="21"/>
-<wire x1="-33.15" y1="5.045" x2="-33.15" y2="0.045" width="0.127" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="13.97" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="5.08" x2="13.97" y2="0" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="3.81" y2="0" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="0" x2="3.81" y2="0" width="0.1524" layer="21"/>
-<pad name="P1_1" x="-31.75" y="1.27" drill="1" shape="square"/>
-<pad name="P1_2" x="-31.75" y="3.81" drill="1" diameter="1.6764"/>
-<pad name="P1_3" x="-29.21" y="1.27" drill="1"/>
-<pad name="P1_4" x="-29.21" y="3.81" drill="1"/>
-<pad name="P1_5" x="-26.67" y="1.27" drill="1"/>
-<pad name="P1_6" x="-26.67" y="3.81" drill="1" diameter="1.6764"/>
-<pad name="P1_7" x="-24.13" y="1.27" drill="1"/>
-<pad name="P1_8" x="-24.13" y="3.81" drill="1"/>
-<pad name="P1_9" x="-21.59" y="1.27" drill="1"/>
-<pad name="P1_10" x="-21.59" y="3.81" drill="1"/>
-<pad name="P1_11" x="-19.05" y="1.27" drill="1"/>
-<pad name="P1_12" x="-19.05" y="3.81" drill="1"/>
-<pad name="P1_13" x="-16.51" y="1.27" drill="1"/>
-<pad name="P1_14" x="-16.51" y="3.81" drill="1"/>
-<pad name="P1_15" x="-13.97" y="1.27" drill="1"/>
-<pad name="P1_16" x="-13.97" y="3.81" drill="1"/>
-<pad name="P1_17" x="-11.43" y="1.27" drill="1"/>
-<pad name="P1_18" x="-11.43" y="3.81" drill="1"/>
-<pad name="P1_19" x="-8.89" y="1.27" drill="1"/>
-<pad name="P1_20" x="-8.89" y="3.81" drill="1"/>
-<pad name="P1_21" x="-6.35" y="1.27" drill="1"/>
-<pad name="P1_22" x="-6.35" y="3.81" drill="1"/>
-<pad name="P1_23" x="-3.81" y="1.27" drill="1"/>
-<pad name="P1_24" x="-3.81" y="3.81" drill="1"/>
-<pad name="P1_25" x="-1.27" y="1.27" drill="1"/>
-<pad name="P1_26" x="-1.27" y="3.81" drill="1"/>
-<pad name="P5_2" x="5.08" y="1.27" drill="1"/>
-<pad name="P5_4" x="7.62" y="1.27" drill="1"/>
-<pad name="P5_6" x="10.16" y="1.27" drill="1"/>
-<pad name="P5_8" x="12.7" y="1.27" drill="1"/>
-<pad name="P5_1" x="5.08" y="3.81" drill="1" shape="square"/>
-<pad name="P5_3" x="7.62" y="3.81" drill="1"/>
-<pad name="P5_5" x="10.16" y="3.81" drill="1"/>
-<pad name="P5_7" x="12.7" y="3.81" drill="1"/>
-<text x="-23.97" y="6.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.25" y="4.77" size="1.27" layer="21" ratio="10" rot="R180">26</text>
-<text x="-15.245" y="6.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-32.2464" y="-0.4261" size="0.4064" layer="51">3v3</text>
-<text x="-32.1214" y="5.1989" size="0.4064" layer="51">5v</text>
-<text x="-27.4714" y="5.1489" size="0.4064" layer="51">GND</text>
-<text x="2.25" y="1.77" size="1.27" layer="21" ratio="10" rot="R180">25</text>
-<rectangle x1="7.366" y1="1.016" x2="7.874" y2="1.524" layer="51"/>
-<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
-<rectangle x1="9.906" y1="1.016" x2="10.414" y2="1.524" layer="51"/>
-<rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
-<rectangle x1="4.826" y1="3.556" x2="5.334" y2="4.064" layer="51"/>
-<rectangle x1="7.366" y1="3.556" x2="7.874" y2="4.064" layer="51"/>
-<rectangle x1="9.906" y1="3.556" x2="10.414" y2="4.064" layer="51"/>
-<rectangle x1="12.446" y1="3.556" x2="12.954" y2="4.064" layer="51"/>
-<rectangle x1="-32.004" y1="3.556" x2="-31.496" y2="4.064" layer="51"/>
-<rectangle x1="-29.464" y1="3.556" x2="-28.956" y2="4.064" layer="51"/>
-<rectangle x1="-26.924" y1="3.556" x2="-26.416" y2="4.064" layer="51"/>
-<rectangle x1="-24.384" y1="3.556" x2="-23.876" y2="4.064" layer="51"/>
-<rectangle x1="-21.844" y1="3.556" x2="-21.336" y2="4.064" layer="51" rot="R90"/>
-<rectangle x1="-19.304" y1="3.556" x2="-18.796" y2="4.064" layer="51"/>
-<rectangle x1="-16.764" y1="3.556" x2="-16.256" y2="4.064" layer="51"/>
-<rectangle x1="-14.224" y1="3.556" x2="-13.716" y2="4.064" layer="51"/>
-<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51"/>
-<rectangle x1="-9.144" y1="3.556" x2="-8.636" y2="4.064" layer="51"/>
-<rectangle x1="-6.604" y1="3.556" x2="-6.096" y2="4.064" layer="51"/>
-<rectangle x1="-4.064" y1="3.556" x2="-3.556" y2="4.064" layer="51"/>
-<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51"/>
-<rectangle x1="-32.004" y1="1.016" x2="-31.496" y2="1.524" layer="51"/>
-<rectangle x1="-29.464" y1="1.016" x2="-28.956" y2="1.524" layer="51"/>
-<rectangle x1="-26.924" y1="1.016" x2="-26.416" y2="1.524" layer="51"/>
-<rectangle x1="-24.384" y1="1.016" x2="-23.876" y2="1.524" layer="51"/>
-<rectangle x1="-21.844" y1="1.016" x2="-21.336" y2="1.524" layer="51"/>
-<rectangle x1="-19.304" y1="1.016" x2="-18.796" y2="1.524" layer="51"/>
-<rectangle x1="-16.764" y1="1.016" x2="-16.256" y2="1.524" layer="51"/>
-<rectangle x1="-14.224" y1="1.016" x2="-13.716" y2="1.524" layer="51"/>
-<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51"/>
-<rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51"/>
-<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="Gyros">
 <packages>
 <package name="QFN-24-4MM2">
@@ -977,6 +884,75 @@
 <rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
 <rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+<package name="RASPBERRY-PI_REV2">
+<wire x1="-32.675" y1="2.195" x2="-30.825" y2="2.195" width="0.127" layer="21"/>
+<wire x1="-30.825" y1="2.195" x2="-30.825" y2="0.345" width="0.127" layer="21" curve="1.9659"/>
+<wire x1="-30.825" y1="0.345" x2="-32.675" y2="0.345" width="0.127" layer="21"/>
+<wire x1="-32.675" y1="0.345" x2="-32.675" y2="2.195" width="0.127" layer="21"/>
+<wire x1="-33.15" y1="0.045" x2="0.05" y2="0.045" width="0.127" layer="21"/>
+<wire x1="0.05" y1="0.045" x2="0.05" y2="5.045" width="0.127" layer="21"/>
+<wire x1="0.05" y1="5.045" x2="-33.15" y2="5.045" width="0.127" layer="21"/>
+<wire x1="-33.15" y1="5.045" x2="-33.15" y2="0.045" width="0.127" layer="21"/>
+<pad name="P1_1" x="-31.75" y="1.27" drill="1" shape="square"/>
+<pad name="P1_2" x="-31.75" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="P1_3" x="-29.21" y="1.27" drill="1"/>
+<pad name="P1_4" x="-29.21" y="3.81" drill="1"/>
+<pad name="P1_5" x="-26.67" y="1.27" drill="1"/>
+<pad name="P1_6" x="-26.67" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="P1_7" x="-24.13" y="1.27" drill="1"/>
+<pad name="P1_8" x="-24.13" y="3.81" drill="1"/>
+<pad name="P1_9" x="-21.59" y="1.27" drill="1"/>
+<pad name="P1_10" x="-21.59" y="3.81" drill="1"/>
+<pad name="P1_11" x="-19.05" y="1.27" drill="1"/>
+<pad name="P1_12" x="-19.05" y="3.81" drill="1"/>
+<pad name="P1_13" x="-16.51" y="1.27" drill="1"/>
+<pad name="P1_14" x="-16.51" y="3.81" drill="1"/>
+<pad name="P1_15" x="-13.97" y="1.27" drill="1"/>
+<pad name="P1_16" x="-13.97" y="3.81" drill="1"/>
+<pad name="P1_17" x="-11.43" y="1.27" drill="1"/>
+<pad name="P1_18" x="-11.43" y="3.81" drill="1"/>
+<pad name="P1_19" x="-8.89" y="1.27" drill="1"/>
+<pad name="P1_20" x="-8.89" y="3.81" drill="1"/>
+<pad name="P1_21" x="-6.35" y="1.27" drill="1"/>
+<pad name="P1_22" x="-6.35" y="3.81" drill="1"/>
+<pad name="P1_23" x="-3.81" y="1.27" drill="1"/>
+<pad name="P1_24" x="-3.81" y="3.81" drill="1"/>
+<pad name="P1_25" x="-1.27" y="1.27" drill="1"/>
+<pad name="P1_26" x="-1.27" y="3.81" drill="1"/>
+<text x="-23.97" y="6.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.25" y="4.77" size="1.27" layer="21" ratio="10" rot="R180">26</text>
+<text x="-15.245" y="6.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-32.2464" y="-0.4261" size="0.4064" layer="51">3v3</text>
+<text x="-32.1214" y="5.1989" size="0.4064" layer="51">5v</text>
+<text x="-27.4714" y="5.1489" size="0.4064" layer="51">GND</text>
+<text x="2.25" y="1.77" size="1.27" layer="21" ratio="10" rot="R180">25</text>
+<rectangle x1="-32.004" y1="3.556" x2="-31.496" y2="4.064" layer="51"/>
+<rectangle x1="-29.464" y1="3.556" x2="-28.956" y2="4.064" layer="51"/>
+<rectangle x1="-26.924" y1="3.556" x2="-26.416" y2="4.064" layer="51"/>
+<rectangle x1="-24.384" y1="3.556" x2="-23.876" y2="4.064" layer="51"/>
+<rectangle x1="-21.844" y1="3.556" x2="-21.336" y2="4.064" layer="51" rot="R90"/>
+<rectangle x1="-19.304" y1="3.556" x2="-18.796" y2="4.064" layer="51"/>
+<rectangle x1="-16.764" y1="3.556" x2="-16.256" y2="4.064" layer="51"/>
+<rectangle x1="-14.224" y1="3.556" x2="-13.716" y2="4.064" layer="51"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51"/>
+<rectangle x1="-9.144" y1="3.556" x2="-8.636" y2="4.064" layer="51"/>
+<rectangle x1="-6.604" y1="3.556" x2="-6.096" y2="4.064" layer="51"/>
+<rectangle x1="-4.064" y1="3.556" x2="-3.556" y2="4.064" layer="51"/>
+<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51"/>
+<rectangle x1="-32.004" y1="1.016" x2="-31.496" y2="1.524" layer="51"/>
+<rectangle x1="-29.464" y1="1.016" x2="-28.956" y2="1.524" layer="51"/>
+<rectangle x1="-26.924" y1="1.016" x2="-26.416" y2="1.524" layer="51"/>
+<rectangle x1="-24.384" y1="1.016" x2="-23.876" y2="1.524" layer="51"/>
+<rectangle x1="-21.844" y1="1.016" x2="-21.336" y2="1.524" layer="51"/>
+<rectangle x1="-19.304" y1="1.016" x2="-18.796" y2="1.524" layer="51"/>
+<rectangle x1="-16.764" y1="1.016" x2="-16.256" y2="1.524" layer="51"/>
+<rectangle x1="-14.224" y1="1.016" x2="-13.716" y2="1.524" layer="51"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51"/>
+<rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51"/>
+<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
 </package>
 </packages>
 </library>
@@ -2231,6 +2207,38 @@ chip</description>
 </package>
 </packages>
 </library>
+<library name="RaspberryPi">
+<packages>
+<package name="RASPI_P5">
+<wire x1="-10.16" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="-10.16" y2="0" width="0.1524" layer="21"/>
+<pad name="P5_2" x="-8.89" y="1.27" drill="1"/>
+<pad name="P5_4" x="-6.35" y="1.27" drill="1"/>
+<pad name="P5_6" x="-3.81" y="1.27" drill="1"/>
+<pad name="P5_8" x="-1.27" y="1.27" drill="1"/>
+<pad name="P5_1" x="-8.89" y="3.81" drill="1" shape="square"/>
+<pad name="P5_3" x="-6.35" y="3.81" drill="1"/>
+<pad name="P5_5" x="-3.81" y="3.81" drill="1"/>
+<pad name="P5_7" x="-1.27" y="3.81" drill="1"/>
+<text x="1.43" y="3.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.265" y="1.095" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-9.3864" y="-0.4261" size="0.4064" layer="51">3v3</text>
+<text x="-9.2614" y="5.1989" size="0.4064" layer="51">5v</text>
+<text x="-2.0714" y="5.1489" size="0.4064" layer="51">GND</text>
+<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
+<rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="-9.144" y1="3.556" x2="-8.636" y2="4.064" layer="51"/>
+<rectangle x1="-6.604" y1="3.556" x2="-6.096" y2="4.064" layer="51"/>
+<rectangle x1="-4.064" y1="3.556" x2="-3.556" y2="4.064" layer="51"/>
+<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51"/>
+<text x="-1.905" y="-0.635" size="0.4064" layer="51">GND</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2417,9 +2425,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$3" library="RaspberryPi" package="RASPBERRY-PI_REV2" value="RASPBERRY-PI_REV2" x="6.66" y="48.83" smashed="yes" rot="R90">
-<attribute name="VALUE" x="9.375" y="15.805" size="1.27" layer="27" ratio="10" rot="R90"/>
-</element>
 <element name="MPU1" library="Gyros" package="QFN-24-4MM2" value="MPU-3300" x="44.74" y="12.49"/>
 <element name="ITG1" library="Gyros" package="QFN-24-4MM2" value="ITG-3050" x="57.56" y="13.29"/>
 <element name="ACL_1" library="SparkFun" package="QFN-16_0.5MM" value="MMA8452Q" x="38.74" y="12.84"/>
@@ -2583,13 +2588,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.886" y="15.219" size="1.27" layer="25"/>
 <attribute name="VALUE" x="44.111" y="15.568" size="1.27" layer="27"/>
 </element>
-<element name="IC1" library="Gyros" package="TO220V" value="LM1117T-3.3-V" x="7.25" y="4.81" rot="R180"/>
+<element name="IC1" library="Gyros" package="TO220V" value="LM1117T-3.3-V" x="35.75" y="50.19"/>
 <element name="R39" library="resistor" package="R0603" value="2.2K" x="30.98" y="25.45" rot="R180"/>
 <element name="R40" library="resistor" package="R0603" value="2.2K" x="31" y="20.9" rot="R180"/>
 <element name="R23" library="resistor" package="R0603" value="2.2K" x="31" y="23.2"/>
 <element name="R28" library="resistor" package="R0603" value="2.2K" x="31" y="29.9"/>
 <element name="R27" library="resistor" package="R0603" value="2.2K" x="80.7" y="38.7" rot="R180"/>
 <element name="R29" library="resistor" package="R0603" value="2.2K" x="72.5" y="36.2" rot="R180"/>
+<element name="U$1" library="Gyros" package="RASPBERRY-PI_REV2" value="RASPI-P1RASPI_REV2_P1" x="34" y="-8"/>
+<element name="U$2" library="RaspberryPi" package="RASPI_P5" value="RASPI_P5" x="11" y="-15"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2732,11 +2739,11 @@ design rules under a new name.</description>
 <contactref element="C18" pad="2"/>
 <contactref element="ITG3" pad="18"/>
 <contactref element="IC1" pad="1"/>
-<contactref element="U$3" pad="P1_14"/>
 <wire x1="70.25" y1="20.6" x2="70.2" y2="20.6" width="0.254" layer="1"/>
 <wire x1="70.2" y1="20.6" x2="70.2" y2="19.6" width="0.254" layer="1"/>
 <wire x1="70.2" y1="19.6" x2="71.45" y2="19.6" width="0.254" layer="1"/>
 <wire x1="71.45" y1="19.6" x2="71.45" y2="18.6" width="0.254" layer="1"/>
+<contactref element="U$1" pad="P1_16"/>
 <wire x1="86.55" y1="38" x2="89" y2="37.15" width="0" layer="19" extent="1-1"/>
 <wire x1="85.025" y1="35.85" x2="86.55" y2="38" width="0" layer="19" extent="1-1"/>
 <wire x1="84.15" y1="34.975" x2="85.025" y2="35.85" width="0" layer="19" extent="1-1"/>
@@ -2873,32 +2880,35 @@ design rules under a new name.</description>
 <wire x1="90" y1="9.15" x2="87.6" y2="9.15" width="0" layer="19" extent="1-1"/>
 <wire x1="90" y1="12.35" x2="90" y2="9.15" width="0" layer="19" extent="1-1"/>
 <wire x1="90.15" y1="15.8" x2="90" y2="12.35" width="0" layer="19" extent="1-1"/>
-<wire x1="9.79" y1="7.35" x2="29.15" y2="13" width="0" layer="19" extent="1-1"/>
-<wire x1="2.85" y1="32.32" x2="9.79" y2="7.35" width="0" layer="19" extent="1-1"/>
+<wire x1="33.21" y1="47.65" x2="31.85" y2="38.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20.03" y1="-4.19" x2="29.15" y2="13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK1">
-<contactref element="U$3" pad="P1_5"/>
 <contactref element="MUX1" pad="14"/>
 <wire x1="86.975" y1="21.0822" x2="86.975" y2="20.025" width="0.254" layer="1"/>
 <wire x1="86.975" y1="20.025" x2="88" y2="19" width="0.254" layer="1"/>
 <wire x1="88" y1="19" x2="93" y2="19" width="0.254" layer="1"/>
-<wire x1="5.39" y1="22.16" x2="86.975" y2="21.0822" width="0" layer="19" extent="1-1"/>
+<wire x1="95" y1="44" x2="95" y2="21" width="0.254" layer="1"/>
+<wire x1="95" y1="21" x2="93" y2="19" width="0.254" layer="1"/>
+<contactref element="U$1" pad="P1_7"/>
+<wire x1="9.87" y1="-6.73" x2="86.975" y2="20.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA1">
-<contactref element="U$3" pad="P1_3"/>
 <contactref element="MUX1" pad="15"/>
 <wire x1="87.625" y1="21.0822" x2="87.625" y2="20.375" width="0.254" layer="1"/>
 <wire x1="87.625" y1="20.375" x2="88" y2="20" width="0.254" layer="1"/>
 <wire x1="88" y1="20" x2="92" y2="20" width="0.254" layer="1"/>
-<wire x1="92" y1="20" x2="93" y2="21" width="0.254" layer="1"/>
-<wire x1="5.39" y1="19.62" x2="87.625" y2="21.0822" width="0" layer="19" extent="1-1"/>
+<wire x1="94" y1="43" x2="94" y2="22" width="0.254" layer="1"/>
+<wire x1="94" y1="22" x2="92" y2="20" width="0.254" layer="1"/>
+<contactref element="U$1" pad="P1_5"/>
+<wire x1="7.33" y1="-6.73" x2="87.625" y2="20.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA2">
-<contactref element="U$3" pad="P5_3"/>
 <contactref element="MUX2" pad="15"/>
 <contactref element="R39" pad="1"/>
-<wire x1="31.83" y1="25.45" x2="2.85" y2="56.45" width="0" layer="19" extent="1-1"/>
-<wire x1="37.625" y1="23.0822" x2="31.83" y2="25.45" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="P5_5"/>
+<wire x1="31.83" y1="25.45" x2="37.625" y2="23.0822" width="0" layer="19" extent="1-1"/>
+<wire x1="7.19" y1="-11.19" x2="31.83" y2="25.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C26" pad="1"/>
@@ -3386,6 +3396,7 @@ design rules under a new name.</description>
 <wire x1="30.6" y1="16.69" x2="30.6" y2="17.3" width="0.254" layer="1"/>
 <wire x1="30.6" y1="17.3" x2="31" y2="17.7" width="0.254" layer="1"/>
 <wire x1="31" y1="17.7" x2="31" y2="18.51" width="0.254" layer="1"/>
+<wire x1="93" y1="40" x2="93" y2="28" width="0.4064" layer="1"/>
 <wire x1="89" y1="39" x2="89" y2="38.85" width="0" layer="19" extent="1-1"/>
 <wire x1="63.725" y1="35" x2="65.5" y2="35.275" width="0" layer="19" extent="1-1"/>
 <wire x1="36.6" y1="39.85" x2="34.3" y2="39.85" width="0" layer="19" extent="1-1"/>
@@ -3398,7 +3409,7 @@ design rules under a new name.</description>
 <wire x1="47.4862" y1="26.7033" x2="52.4" y2="29.2" width="0" layer="19" extent="1-16"/>
 <wire x1="45.1425" y1="25.8784" x2="47.4862" y2="26.7033" width="0" layer="19" extent="1-1"/>
 <wire x1="44.6379" y1="25.8784" x2="45.1425" y2="25.8784" width="0" layer="19" extent="1-1"/>
-<wire x1="7.25" y1="7.35" x2="30" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="35.75" y1="47.65" x2="34" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1_AUXSDA">
 <contactref element="ACL_1" pad="6"/>
@@ -3542,10 +3553,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CLK2">
 <contactref element="MUX2" pad="14"/>
-<contactref element="U$3" pad="P5_4"/>
 <contactref element="R40" pad="1"/>
-<wire x1="31.85" y1="20.9" x2="5.39" y2="56.45" width="0" layer="19" extent="1-1"/>
-<wire x1="36.975" y1="23.0822" x2="31.85" y2="20.9" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="P5_6"/>
+<wire x1="31.85" y1="20.9" x2="36.975" y2="23.0822" width="0" layer="19" extent="1-1"/>
+<wire x1="7.19" y1="-13.73" x2="31.85" y2="20.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C27" pad="1"/>
@@ -4311,7 +4322,6 @@ design rules under a new name.</description>
 <wire x1="33.8" y1="19.4" x2="34.4" y2="20.1" width="0.254" layer="1"/>
 <wire x1="34.4" y1="20.1" x2="34.4" y2="23.0572" width="0.254" layer="1"/>
 <wire x1="34.4" y1="23.0572" x2="34.375" y2="23.0822" width="0.254" layer="1"/>
-<wire x1="34.4" y1="23.0572" x2="87.85" y2="33.675" width="0" layer="19" extent="1-1"/>
 <wire x1="31.85" y1="10.9" x2="31.85" y2="11.75" width="0.254" layer="1"/>
 <wire x1="31.85" y1="11.75" x2="32.5" y2="12.4" width="0.254" layer="1"/>
 <wire x1="32.5" y1="12.4" x2="32.5" y2="17.1" width="0.254" layer="1"/>
@@ -4319,6 +4329,7 @@ design rules under a new name.</description>
 <wire x1="32.2" y1="17.4" x2="31.9" y2="17.4" width="0.254" layer="1"/>
 <wire x1="31.9" y1="17.4" x2="31.4" y2="17.9" width="0.254" layer="1"/>
 <wire x1="31.4" y1="17.9" x2="31.4" y2="18.51" width="0.254" layer="1"/>
+<wire x1="34.4" y1="23.0572" x2="87.85" y2="33.675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2_SD2">
 <contactref element="MUX2" pad="9"/>
@@ -4367,9 +4378,12 @@ design rules under a new name.</description>
 <signal name="I2C_MUX_2">
 </signal>
 <signal name="N$10">
-<contactref element="U$3" pad="P1_2"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="4.71" y1="7.35" x2="2.85" y2="17.08" width="0" layer="19" extent="1-1"/>
+<wire x1="44.15" y1="49.15" x2="42" y2="47" width="0.4064" layer="1"/>
+<wire x1="42" y1="47" x2="38.94" y2="47" width="0.4064" layer="1"/>
+<wire x1="38.94" y1="47" x2="38.29" y2="47.65" width="0.4064" layer="1"/>
+<contactref element="U$1" pad="P1_4"/>
+<wire x1="4.79" y1="-4.19" x2="38.94" y2="47" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
