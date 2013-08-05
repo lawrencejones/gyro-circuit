@@ -4122,7 +4122,6 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <wire x1="62.6" y1="22.6" x2="64" y2="24" width="0.254" layer="1"/>
 <wire x1="64" y1="24" x2="77" y2="24" width="0.254" layer="1"/>
 <via x="77.6" y="23.4" extent="1-16" drill="0.6"/>
-<wire x1="83.5" y1="23.2" x2="84" y2="23" width="0.254" layer="16"/>
 <via x="84" y="23" extent="1-16" drill="0.6"/>
 <wire x1="84" y1="23" x2="83.8" y2="22.4" width="0.254" layer="1"/>
 <wire x1="83.8" y1="22.4" x2="83.7" y2="21.9" width="0.254" layer="1"/>
@@ -4136,7 +4135,8 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <wire x1="63.65" y1="22.01" x2="63.65" y2="21.01" width="0.254" layer="16"/>
 <wire x1="63.65" y1="21.01" x2="59" y2="21" width="0.254" layer="16"/>
 <wire x1="77" y1="24" x2="77.6" y2="23.4" width="0.254" layer="1"/>
-<wire x1="77.6" y1="23.4" x2="83.5" y2="23.2" width="0" layer="19" extent="16-16"/>
+<wire x1="84" y1="23" x2="78" y2="23" width="0.254" layer="16"/>
+<wire x1="78" y1="23" x2="77.6" y2="23.4" width="0.254" layer="16"/>
 </signal>
 <signal name="N$42">
 <contactref element="MUX1" pad="3"/>
