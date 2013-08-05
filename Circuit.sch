@@ -6797,18 +6797,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <label x="104.14" y="327.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="M2_INT" class="0">
-<segment>
-<pinref part="MPU1" gate="G$1" pin="INT"/>
-<wire x1="-40.64" y1="302.26" x2="-27.94" y2="302.26" width="0.1524" layer="91"/>
-<label x="-35.56" y="302.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MPU2" gate="G$1" pin="INT"/>
-<wire x1="187.96" y1="302.26" x2="200.66" y2="302.26" width="0.1524" layer="91"/>
-<label x="193.04" y="302.26" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="MPU1" gate="G$1" pin="CPOUT"/>
@@ -6954,14 +6942,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="I1_INT" class="0">
-<segment>
-<pinref part="ITG1" gate="G$1" pin="INT"/>
-<wire x1="-33.02" y1="210.82" x2="-33.02" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="203.2" x2="-48.26" y2="203.2" width="0.1524" layer="91"/>
-<label x="-40.64" y="205.74" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="C54" gate="G$1" pin="1"/>
@@ -6993,14 +6973,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="195.58" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="226.06" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="I2_INT" class="0">
-<segment>
-<pinref part="ITG2" gate="G$1" pin="INT"/>
-<wire x1="195.58" y1="210.82" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="203.2" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
-<label x="187.96" y="205.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7036,14 +7008,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="I3_INT" class="0">
-<segment>
-<pinref part="ITG3" gate="G$1" pin="INT"/>
-<wire x1="-33.02" y1="114.3" x2="-33.02" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="106.68" x2="-48.26" y2="106.68" width="0.1524" layer="91"/>
-<label x="-40.64" y="109.22" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="C55" gate="G$1" pin="1"/>
@@ -7075,14 +7039,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="195.58" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="129.54" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="I4_INT" class="0">
-<segment>
-<pinref part="ITG4" gate="G$1" pin="INT"/>
-<wire x1="195.58" y1="114.3" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
-<label x="187.96" y="109.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="I1_AUXSDA" class="0">
