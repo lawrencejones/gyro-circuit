@@ -7685,6 +7685,43 @@ type RDH, grid 15 mm</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,-33.02,210.82,I1_INT,,,,,"/>
+<approved hash="105,1,-170.18,358.14,I2C_MUX_1,,,,,"/>
+<approved hash="105,1,-170.18,185.42,I2C_MUX_2,,,,,"/>
+<approved hash="106,1,195.58,210.82,I2_INT,,,,,"/>
+<approved hash="106,1,-33.02,114.3,I3_INT,,,,,"/>
+<approved hash="106,1,195.58,114.3,I4_INT,,,,,"/>
+<approved hash="105,1,3.81,261.62,ITG/MMA_1,,,,,"/>
+<approved hash="105,1,232.41,261.62,ITG/MMA_2,,,,,"/>
+<approved hash="105,1,3.81,165.1,ITG/MMA_3,,,,,"/>
+<approved hash="105,1,232.41,165.1,ITG/MMA_4,,,,,"/>
+<approved hash="105,1,-218.44,320.04,ITG/MMA_5,,,,,"/>
+<approved hash="105,1,-53.34,-7.62,L3G4_1,,,,,"/>
+<approved hash="105,1,12.7,30.48,L3G4_2,,,,,"/>
+<approved hash="105,1,127,30.48,L3G4_3,,,,,"/>
+<approved hash="105,1,241.3,30.48,L3G4_4,,,,,"/>
+<approved hash="105,1,-170.18,165.1,MAG_1,,,,,"/>
+<approved hash="105,1,-170.18,68.58,MAG_2,,,,,"/>
+<approved hash="105,1,109.22,320.04,N$4,,,,,"/>
+<approved hash="105,1,232.41,358.14,N$8,,,,,"/>
+<approved hash="110,1,-218.44,185.42,ITG/MMA_1,I2C_MUX_2,,,,"/>
+<approved hash="110,1,-218.44,261.62,ITG/MMA_1,I2C_MUX_2,,,,"/>
+<approved hash="110,1,-121.92,185.42,ITG/MMA_1,I2C_MUX_2,,,,"/>
+<approved hash="110,1,-121.92,261.62,ITG/MMA_1,I2C_MUX_2,,,,"/>
+<approved hash="110,1,-218.44,185.42,I2C_MUX_2,ITG/MMA_1,,,,"/>
+<approved hash="110,1,-121.92,185.42,I2C_MUX_2,ITG/MMA_1,,,,"/>
+<approved hash="110,1,-218.44,261.62,I2C_MUX_2,ITG/MMA_1,,,,"/>
+<approved hash="110,1,-121.92,261.62,I2C_MUX_2,ITG/MMA_1,,,,"/>
+<approved hash="110,1,-218.44,358.14,ITG/MMA_5,I2C_MUX_1,,,,"/>
+<approved hash="110,1,-218.44,281.94,ITG/MMA_5,I2C_MUX_1,,,,"/>
+<approved hash="110,1,-121.92,358.14,ITG/MMA_5,I2C_MUX_1,,,,"/>
+<approved hash="110,1,-121.92,281.94,ITG/MMA_5,I2C_MUX_1,,,,"/>
+<approved hash="110,1,-218.44,358.14,I2C_MUX_1,ITG/MMA_5,,,,"/>
+<approved hash="110,1,-121.92,358.14,I2C_MUX_1,ITG/MMA_5,,,,"/>
+<approved hash="110,1,-218.44,281.94,I2C_MUX_1,ITG/MMA_5,,,,"/>
+<approved hash="110,1,-121.92,281.94,I2C_MUX_1,ITG/MMA_5,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
