@@ -7313,13 +7313,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="-200.66" y1="132.08" x2="-200.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MAG1_INT" class="0">
-<segment>
-<pinref part="MAG1" gate="G$1" pin="INT1"/>
-<wire x1="-154.94" y1="129.54" x2="-144.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="-154.94" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MAG_2" class="0">
 <segment>
 <wire x1="-218.44" y1="68.58" x2="-121.92" y2="68.58" width="0.3048" layer="91"/>
@@ -7343,13 +7336,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-185.42" y1="35.56" x2="-200.66" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="35.56" x2="-200.66" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MAG2_INT" class="0">
-<segment>
-<pinref part="MAG2" gate="G$1" pin="INT1"/>
-<wire x1="-154.94" y1="33.02" x2="-144.78" y2="33.02" width="0.1524" layer="91"/>
-<label x="-154.94" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L3G4_1" class="0">
@@ -7683,12 +7669,8 @@ The GPIO Connector (P5):&lt;br&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,-33.02,210.82,I1_INT,,,,,"/>
 <approved hash="105,1,-170.18,358.14,I2C_MUX_1,,,,,"/>
 <approved hash="105,1,-170.18,185.42,I2C_MUX_2,,,,,"/>
-<approved hash="106,1,195.58,210.82,I2_INT,,,,,"/>
-<approved hash="106,1,-33.02,114.3,I3_INT,,,,,"/>
-<approved hash="106,1,195.58,114.3,I4_INT,,,,,"/>
 <approved hash="105,1,3.81,261.62,ITG/MMA_1,,,,,"/>
 <approved hash="105,1,232.41,261.62,ITG/MMA_2,,,,,"/>
 <approved hash="105,1,3.81,165.1,ITG/MMA_3,,,,,"/>
