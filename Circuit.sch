@@ -6184,23 +6184,22 @@ The GPIO Connector (P5):&lt;br&gt;
 </net>
 <net name="CLK1" class="0">
 <segment>
-<wire x1="393.7" y1="187.96" x2="370.84" y2="187.96" width="0.1524" layer="91"/>
-<label x="370.84" y="187.96" size="1.778" layer="95"/>
-<pinref part="P1" gate="G$1" pin="GPIO4,GPCLK0"/>
-</segment>
-<segment>
 <pinref part="MUX1" gate="G$1" pin="SCL"/>
 <wire x1="-147.32" y1="330.2" x2="-134.62" y2="330.2" width="0.1524" layer="91"/>
 <label x="-134.62" y="332.74" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="GPIO3,I2C0_SCL"/>
+<wire x1="393.7" y1="190.5" x2="370.84" y2="190.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SDA1" class="0">
 <segment>
-<wire x1="393.7" y1="190.5" x2="386.08" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="190.5" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="195.58" x2="370.84" y2="195.58" width="0.1524" layer="91"/>
 <label x="370.84" y="195.58" size="1.778" layer="95"/>
-<pinref part="P1" gate="G$1" pin="GPIO3,I2C0_SCL"/>
+<wire x1="386.08" y1="195.58" x2="386.08" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="GPIO2,I2C0_SDA"/>
+<wire x1="386.08" y1="193.04" x2="393.7" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MUX1" gate="G$1" pin="SDA"/>
