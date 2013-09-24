@@ -5209,7 +5209,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <part name="C12" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="C15" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="L3G_2" library="SparkFun" deviceset="L3G4200D" device=""/>
+<part name="L3G_3" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="C25" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C29" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
@@ -5218,7 +5218,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <part name="C30" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="C31" library="SparkFun" deviceset="CAP" device="0603-CAP" value="470nF"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="L3G_3" library="SparkFun" deviceset="L3G4200D" device=""/>
+<part name="L3G_2" library="SparkFun" deviceset="L3G4200D" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="C32" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C36" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
@@ -5432,7 +5432,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <instance part="C12" gate="G$1" x="-33.02" y="17.78"/>
 <instance part="C15" gate="G$1" x="-22.86" y="17.78"/>
 <instance part="R11" gate="G$1" x="-22.86" y="7.62" rot="R90"/>
-<instance part="L3G_2" gate="G$1" x="60.96" y="25.4"/>
+<instance part="L3G_3" gate="G$1" x="60.96" y="25.4"/>
 <instance part="+3V34" gate="G$1" x="38.1" y="50.8"/>
 <instance part="C25" gate="G$1" x="17.78" y="27.94"/>
 <instance part="C29" gate="G$1" x="27.94" y="27.94"/>
@@ -5441,7 +5441,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <instance part="C30" gate="G$1" x="81.28" y="17.78"/>
 <instance part="C31" gate="G$1" x="91.44" y="17.78"/>
 <instance part="R22" gate="G$1" x="91.44" y="7.62" rot="R90"/>
-<instance part="L3G_3" gate="G$1" x="175.26" y="25.4"/>
+<instance part="L3G_2" gate="G$1" x="175.26" y="25.4"/>
 <instance part="+3V36" gate="G$1" x="152.4" y="50.8"/>
 <instance part="C32" gate="G$1" x="132.08" y="27.94"/>
 <instance part="C36" gate="G$1" x="142.24" y="27.94"/>
@@ -5903,10 +5903,10 @@ The GPIO Connector (P5):&lt;br&gt;
 <junction x="-50.8" y="7.62"/>
 </segment>
 <segment>
-<pinref part="L3G_2" gate="G$1" pin="RSVDG@0"/>
+<pinref part="L3G_3" gate="G$1" pin="RSVDG@0"/>
 <wire x1="45.72" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="RSVDG@1"/>
+<pinref part="L3G_3" gate="G$1" pin="RSVDG@1"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="22.86" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="20.32" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
@@ -5914,13 +5914,13 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="38.1" y1="15.24" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="7.62" x2="38.1" y2="0" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="RSVDG@2"/>
+<pinref part="L3G_3" gate="G$1" pin="RSVDG@2"/>
 <wire x1="45.72" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="RSDVG@3"/>
+<pinref part="L3G_3" gate="G$1" pin="RSDVG@3"/>
 <wire x1="45.72" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="RSVDG@4"/>
+<pinref part="L3G_3" gate="G$1" pin="RSVDG@4"/>
 <wire x1="45.72" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="GND"/>
+<pinref part="L3G_3" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="C25" gate="G$1" pin="2"/>
@@ -5946,10 +5946,10 @@ The GPIO Connector (P5):&lt;br&gt;
 <junction x="38.1" y="7.62"/>
 </segment>
 <segment>
-<pinref part="L3G_3" gate="G$1" pin="RSVDG@0"/>
+<pinref part="L3G_2" gate="G$1" pin="RSVDG@0"/>
 <wire x1="160.02" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="27.94" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="RSVDG@1"/>
+<pinref part="L3G_2" gate="G$1" pin="RSVDG@1"/>
 <wire x1="152.4" y1="25.4" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="22.86" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="20.32" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
@@ -5957,13 +5957,13 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="152.4" y1="15.24" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="7.62" x2="152.4" y2="0" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="25.4" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="RSVDG@2"/>
+<pinref part="L3G_2" gate="G$1" pin="RSVDG@2"/>
 <wire x1="160.02" y1="22.86" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="RSDVG@3"/>
+<pinref part="L3G_2" gate="G$1" pin="RSDVG@3"/>
 <wire x1="160.02" y1="20.32" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="RSVDG@4"/>
+<pinref part="L3G_2" gate="G$1" pin="RSVDG@4"/>
 <wire x1="160.02" y1="17.78" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="GND"/>
+<pinref part="L3G_2" gate="G$1" pin="GND"/>
 <wire x1="160.02" y1="15.24" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <pinref part="C32" gate="G$1" pin="2"/>
@@ -5988,7 +5988,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="187.96" y1="7.62" x2="195.58" y2="7.62" width="0.1524" layer="91"/>
 <junction x="187.96" y="7.62"/>
 <junction x="152.4" y="7.62"/>
-<pinref part="L3G_3" gate="G$1" pin="SDO"/>
+<pinref part="L3G_2" gate="G$1" pin="SDO"/>
 <wire x1="187.96" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="33.02" x2="218.44" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="-2.54" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
@@ -6539,14 +6539,14 @@ The GPIO Connector (P5):&lt;br&gt;
 <junction x="-15.24" y="48.26"/>
 </segment>
 <segment>
-<pinref part="L3G_2" gate="G$1" pin="VDDIO"/>
+<pinref part="L3G_3" gate="G$1" pin="VDDIO"/>
 <wire x1="45.72" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="38.1" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="+3V34" gate="G$1" pin="+3V3"/>
-<pinref part="L3G_2" gate="G$1" pin="VDD"/>
+<pinref part="L3G_3" gate="G$1" pin="VDD"/>
 <wire x1="45.72" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="35.56" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="RSVDV@0"/>
+<pinref part="L3G_3" gate="G$1" pin="RSVDV@0"/>
 <wire x1="45.72" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="33.02" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 <junction x="38.1" y="38.1"/>
@@ -6561,23 +6561,23 @@ The GPIO Connector (P5):&lt;br&gt;
 </segment>
 <segment>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
-<pinref part="L3G_2" gate="G$1" pin="CS"/>
+<pinref part="L3G_3" gate="G$1" pin="CS"/>
 <wire x1="73.66" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="30.48" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="L3G_2" gate="G$1" pin="SDO"/>
+<pinref part="L3G_3" gate="G$1" pin="SDO"/>
 <wire x1="99.06" y1="33.02" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <junction x="99.06" y="33.02"/>
 </segment>
 <segment>
-<pinref part="L3G_3" gate="G$1" pin="VDDIO"/>
+<pinref part="L3G_2" gate="G$1" pin="VDDIO"/>
 <wire x1="160.02" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="38.1" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
-<pinref part="L3G_3" gate="G$1" pin="VDD"/>
+<pinref part="L3G_2" gate="G$1" pin="VDD"/>
 <wire x1="160.02" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="35.56" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="RSVDV@0"/>
+<pinref part="L3G_2" gate="G$1" pin="RSVDV@0"/>
 <wire x1="160.02" y1="33.02" x2="152.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="33.02" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 <junction x="152.4" y="38.1"/>
@@ -6598,7 +6598,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="213.36" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="53.34" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
-<pinref part="L3G_3" gate="G$1" pin="CS"/>
+<pinref part="L3G_2" gate="G$1" pin="CS"/>
 <wire x1="187.96" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="30.48" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
 <junction x="213.36" y="53.34"/>
@@ -7197,15 +7197,6 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="L3G4_2" class="0">
-<segment>
-<wire x1="12.7" y1="68.58" x2="12.7" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="109.22" y1="-7.62" x2="12.7" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="109.22" y1="68.58" x2="109.22" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="12.7" y1="68.58" x2="109.22" y2="68.58" width="0.3048" layer="91"/>
-<label x="12.7" y="71.12" size="3.81" layer="95"/>
-</segment>
-</net>
 <net name="N$36" class="0">
 <segment>
 <wire x1="81.28" y1="22.86" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
@@ -7213,7 +7204,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="81.28" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="25.4" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<pinref part="L3G_2" gate="G$1" pin="PLL"/>
+<pinref part="L3G_3" gate="G$1" pin="PLL"/>
 <wire x1="73.66" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="17.78" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
@@ -7229,11 +7220,11 @@ The GPIO Connector (P5):&lt;br&gt;
 </net>
 <net name="L3G4_3" class="0">
 <segment>
-<wire x1="127" y1="68.58" x2="127" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="223.52" y1="-7.62" x2="127" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="223.52" y1="68.58" x2="223.52" y2="-7.62" width="0.3048" layer="91"/>
-<wire x1="127" y1="68.58" x2="223.52" y2="68.58" width="0.3048" layer="91"/>
-<label x="127" y="71.12" size="3.81" layer="95"/>
+<wire x1="12.7" y1="68.58" x2="12.7" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="109.22" y1="-7.62" x2="12.7" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="12.7" y1="68.58" x2="109.22" y2="68.58" width="0.3048" layer="91"/>
+<label x="12.7" y="71.12" size="3.81" layer="95"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -7243,7 +7234,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="195.58" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="25.4" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="1"/>
-<pinref part="L3G_3" gate="G$1" pin="PLL"/>
+<pinref part="L3G_2" gate="G$1" pin="PLL"/>
 <wire x1="187.96" y1="17.78" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="17.78" x2="190.5" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
@@ -7451,7 +7442,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <label x="-142.24" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="L3G_2" gate="G$1" pin="SCL"/>
+<pinref part="L3G_3" gate="G$1" pin="SCL"/>
 <label x="93.98" y="40.64" size="1.778" layer="95" rot="R180"/>
 <wire x1="73.66" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -7470,7 +7461,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <label x="-152.4" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="L3G_2" gate="G$1" pin="SDA/SDI"/>
+<pinref part="L3G_3" gate="G$1" pin="SDA/SDI"/>
 <label x="93.98" y="38.1" size="1.778" layer="95" rot="R180"/>
 <wire x1="73.66" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -7559,7 +7550,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="48.26" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="SDA/SDI"/>
+<pinref part="L3G_2" gate="G$1" pin="SDA/SDI"/>
 <wire x1="187.96" y1="35.56" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 <junction x="195.58" y="35.56"/>
 <wire x1="195.58" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
@@ -7586,7 +7577,7 @@ The GPIO Connector (P5):&lt;br&gt;
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="53.34" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="L3G_3" gate="G$1" pin="SCL"/>
+<pinref part="L3G_2" gate="G$1" pin="SCL"/>
 <wire x1="187.96" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 <junction x="190.5" y="38.1"/>
 <wire x1="190.5" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
@@ -7662,6 +7653,15 @@ The GPIO Connector (P5):&lt;br&gt;
 <wire x1="454.66" y1="195.58" x2="454.66" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <wire x1="454.66" y1="193.04" x2="457.2" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="L3G4_2" class="0">
+<segment>
+<wire x1="127" y1="68.58" x2="127" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="223.52" y1="-7.62" x2="127" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="223.52" y1="68.58" x2="223.52" y2="-7.62" width="0.3048" layer="91"/>
+<wire x1="127" y1="68.58" x2="223.52" y2="68.58" width="0.3048" layer="91"/>
+<label x="127" y="71.12" size="3.81" layer="95"/>
 </segment>
 </net>
 </nets>
